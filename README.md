@@ -1,4 +1,6 @@
 # PMBox
+Message box system in unity.
+____________
 A simple UI management system to create and show messages and dialogs in unity.
 Ability to display messages without coding.
 Ability to create custom skins with the desired features and fileds.
