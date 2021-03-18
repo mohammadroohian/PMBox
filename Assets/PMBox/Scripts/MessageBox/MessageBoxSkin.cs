@@ -17,9 +17,9 @@ namespace Pashmak.MessageBox
         [SerializeField] private UnityEvent m_onShow = new UnityEvent();
         [SerializeField] private UnityEvent m_onHide = new UnityEvent();
         private MessageBoxProfile m_messageBoxProfile;
-        public const string KEY_TITLE = "default_title";
-        public const string KEY_DESCRIPTION = "default_description";
-        public const string KEY_PICTURE = "default_picture";
+        public const string TITLE_ID = "default_title";
+        public const string DESCRIPTION_ID = "default_description";
+        public const string PICTURE_ID = "default_picture";
 
 
         // property________________________________________________________________

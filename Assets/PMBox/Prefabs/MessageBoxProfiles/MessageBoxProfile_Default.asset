@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c581e755b39dd904fa6051bba4de7998, type: 3}
   m_Name: MessageBoxProfile_Default
   m_EditorClassIdentifier: 
-  m_key: default
+  m_profileID: default
   m_skin: {fileID: 1333846411354961997, guid: 678e592fbdea9774ea6c181b304dd4e2, type: 3}
   m_alignment: 4
   m_autoHide: 1

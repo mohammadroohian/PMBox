@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c581e755b39dd904fa6051bba4de7998, type: 3}
   m_Name: MessageBoxProfile_Subtitle
   m_EditorClassIdentifier: 
-  m_key: subtitle
+  m_profileID: subtitle
   m_skin: {fileID: -7585361422143418257, guid: 0ab835885986402468c2e4a3dac8204f, type: 3}
   m_alignment: 7
   m_autoHide: 1

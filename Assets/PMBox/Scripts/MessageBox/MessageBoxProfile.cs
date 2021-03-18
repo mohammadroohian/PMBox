@@ -9,7 +9,7 @@ namespace Pashmak.MessageBox
     public class MessageBoxProfile : ScriptableObject
     {
         // variable________________________________________________________________
-        [SerializeField] private string m_key = "";
+        [SerializeField] private string m_profileID = "";
         [SerializeField] private MessageBoxSkin m_skin = null;
         [SerializeField] private Alignment m_alignment = Alignment.MiddleCenter;
         [SerializeField] private bool m_autoHide = true;
@@ -27,7 +27,7 @@ namespace Pashmak.MessageBox
 
 
         // property________________________________________________________________
-        public string Key { get => m_key; }
+        public string ProfileID { get => m_profileID; }
         public MessageBoxSkin Skin { get => m_skin; }
         public Alignment Alignment { get => m_alignment; }
         public bool AutoHide { get => m_autoHide; }
