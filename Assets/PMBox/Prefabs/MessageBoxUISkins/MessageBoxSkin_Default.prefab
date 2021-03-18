@@ -206,7 +206,7 @@ MonoBehaviour:
     m_obj: {fileID: 1386733422920465690}
   - m_nameId: description
     m_obj: {fileID: 4040564151333455259}
-  - m_nameId: picture
+  - m_nameId: default_picture
     m_obj: {fileID: 168744}
 --- !u!1 &168744
 GameObject:

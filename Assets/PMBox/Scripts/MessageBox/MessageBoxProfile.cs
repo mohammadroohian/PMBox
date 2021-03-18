@@ -45,14 +45,14 @@ namespace Pashmak.MessageBox
     {
         // variable________________________________________________________________
         [SerializeField]
-        private string m_key;
+        private string m_nameID;
         [TextArea]
         [SerializeField]
         private string m_value;
 
 
         // property________________________________________________________________
-        public string Key { get => m_key; private set => m_key = value; }
+        public string NameID { get => m_nameID; private set => m_nameID = value; }
         public string Value { get => m_value; private set => this.m_value = value; }
 
     }
@@ -61,13 +61,13 @@ namespace Pashmak.MessageBox
     {
         // variable________________________________________________________________
         [SerializeField]
-        private string m_key;
+        private string m_nameID;
         [ShowAssetPreview]
         [SerializeField]
         private Sprite m_value;
 
         // property________________________________________________________________
-        public string Key { get => m_key; private set => m_key = value; }
+        public string NameID { get => m_nameID; private set => m_nameID = value; }
         public Sprite Value { get => m_value; private set => this.m_value = value; }
     }
 }

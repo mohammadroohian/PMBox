@@ -190,7 +190,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 6083737927645397847}
-          m_MethodName: _Destroy
+          m_MethodName: DestroyGameObject
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -214,7 +214,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_isActive: 1
   m_destroyAtStart: 0
-  m_gameObject: {fileID: 155534}
+  m_baseGameObject: {fileID: 0}
   m_delay: 0
   m_justChildren: 0
 --- !u!114 &2526074129363474586

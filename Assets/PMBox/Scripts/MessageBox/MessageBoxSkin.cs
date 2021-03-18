@@ -104,8 +104,8 @@ namespace Pashmak.MessageBox
             {
                 foreach (var textItem in m_messageBoxProfile.TextContents)
                 {
-                    if (m_objDict.ContainsKey(textItem.Key))
-                        SetUIText(m_objDict[textItem.Key], textItem.Value);
+                    if (m_objDict.ContainsKey(textItem.NameID))
+                        SetUIText(m_objDict[textItem.NameID], textItem.Value);
                 }
             }
 
@@ -114,8 +114,8 @@ namespace Pashmak.MessageBox
             {
                 foreach (var imageItem in m_messageBoxProfile.ImageContents)
                 {
-                    if (m_objDict.ContainsKey(imageItem.Key))
-                        m_objDict[imageItem.Key].GetComponent<Image>().sprite = imageItem.Value;
+                    if (m_objDict.ContainsKey(imageItem.NameID))
+                        m_objDict[imageItem.NameID].GetComponent<Image>().sprite = imageItem.Value;
                 }
             }
         }

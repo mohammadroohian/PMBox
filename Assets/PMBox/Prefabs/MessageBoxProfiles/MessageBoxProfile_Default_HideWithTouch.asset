@@ -27,5 +27,5 @@ MonoBehaviour:
       m_Calls: []
   m_textContents: []
   m_imageContents:
-  - m_key: default_picture
+  - m_nameID: default_picture
     m_value: {fileID: 21300000, guid: fa80b22512fe66647a9825649556fb17, type: 3}
