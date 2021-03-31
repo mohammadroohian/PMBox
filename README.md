@@ -6,7 +6,7 @@ A simple UI management system to create and show messages and dialogs in unity.
   * Ability to create custom skins with the desired features and fileds.
   * Ability to display messages directly through the code by sending the desired parameters for customization messages and dialogs.
 
-### Why should you use PashmakCore?
+### Why should you use PMBox?
 
 With this package, you can manage your text messages within your project without coding. Of course, there is more possibility in front of you so that you can show custom messages whenever you want by coding.
 
