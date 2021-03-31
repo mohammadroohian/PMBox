@@ -249,11 +249,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_objects:
-  - m_nameId: title
+  - m_nameId: default_title
     m_obj: {fileID: 899095028402278044}
-  - m_nameId: description
+  - m_nameId: default_description
     m_obj: {fileID: 8558803873109611012}
-  - m_nameId: picture
+  - m_nameId: default_picture
     m_obj: {fileID: 168744}
 --- !u!1 &168744
 GameObject:

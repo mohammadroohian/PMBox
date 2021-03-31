@@ -190,7 +190,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 6083737927645397847}
-          m_MethodName: _Destroy
+          m_MethodName: DestroyGameObject
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -214,7 +214,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_isActive: 1
   m_destroyAtStart: 0
-  m_gameObject: {fileID: 155534}
+  m_baseGameObject: {fileID: 0}
   m_delay: 0
   m_justChildren: 0
 --- !u!114 &-7585361422143418257
@@ -249,11 +249,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_objects:
-  - m_nameId: title
+  - m_nameId: default_title
     m_obj: {fileID: 899095028402278044}
-  - m_nameId: description
+  - m_nameId: default_description
     m_obj: {fileID: 8558803873109611012}
-  - m_nameId: picture
+  - m_nameId: default_picture
     m_obj: {fileID: 168744}
 --- !u!1 &168744
 GameObject:
@@ -655,7 +655,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: description ... description
+  m_text: --- empty description ---
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -664,8 +664,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294901638
-  m_fontColor: {r: 0.5235849, g: 1, b: 0.99556285, a: 1}
+    rgba: 4294953472
+  m_fontColor: {r: 0, g: 0.79215693, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -724,10 +724,10 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 6351314242302771701}
-    characterCount: 27
+    characterCount: 25
     spriteCount: 0
-    spaceCount: 2
-    wordCount: 2
+    spaceCount: 3
+    wordCount: 4
     linkCount: 0
     lineCount: 1
     pageCount: 1
