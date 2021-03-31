@@ -36,3 +36,19 @@ With this package, you can manage your text messages within your project without
 ## Overview
 To learn more about how these components work, check out the sample scenes.
 The following are a number of practical cases.
+
+#### Example to display a message on the screen.
+
+![SimpleDialog](https://user-images.githubusercontent.com/80090999/113153234-1efd0400-924c-11eb-8c1a-ed388e6fdbf5.gif)
+
+#### Example to display a subtitle.
+
+![subtitle](https://user-images.githubusercontent.com/80090999/113153516-6aafad80-924c-11eb-8a31-18b6207e2f61.gif)
+
+#### Example to display get item.
+
+![getitem](https://user-images.githubusercontent.com/80090999/113153687-96cb2e80-924c-11eb-932c-3f4ed86dae01.gif)
+
+#### Example to display new mission.
+
+![newmission](https://user-images.githubusercontent.com/80090999/113154027-dbef6080-924c-11eb-89a9-2eb9e8b14318.gif)
