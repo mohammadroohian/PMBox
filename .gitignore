@@ -5,3 +5,5 @@
 /obj
 /.vscode
 /*.sln
+*.vsconfig
+*.suo
